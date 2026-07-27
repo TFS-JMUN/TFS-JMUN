@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TFS JMUN 2026-27</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #071a2e;
+            color: white;
+        }
+
+        header {
+            background-color: #061322;
+            padding: 20px 40px;
+        }
+
+        .top-heading {
+            text-align: center;
+            color: #d4af37;
+            font-family: Georgia, serif;
+            font-size: 45px;
+            letter-spacing: 3px;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #d4af37;
+        }
+
+        .hero {
+            min-height: 650px;
+            background:
+                linear-gradient(
+                    90deg,
+                    rgba(3, 20, 38, 0.95),
+                    rgba(3, 20, 38, 0.45)
+                ),
+                url("un-flag.jpg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            padding: 70px;
+        }
+
+        .hero-content {
+            max-width: 700px;
+        }
+
+        .hero-content h1 {
+            font-family: Georgia, serif;
+            font-size: 65px;
+            line-height: 1.15;
+            margin-bottom: 25px;
+        }
+
+        .gold-line {
+            width: 220px;
+            height: 4px;
+            background-color: #d4af37;
+            margin-bottom: 25px;
+        }
+
+        .hero-content h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            color: #d4af37;
+        }
+
+        .hero-content p {
+            font-size: 21px;
+            max-width: 600px;
+            line-height: 1.7;
+        }
+
+        .information {
+            background-color: #f4f4f4;
+            color: #071a2e;
+            padding: 70px 40px;
+        }
+
+        .information h2 {
+            text-align: center;
+            font-size: 38px;
+            margin-bottom: 45px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            width: 280px;
+            min-height: 260px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .card h3 {
+            color: #0b4778;
+            font-size: 23px;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .card a {
+            color: #0b4778;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .card a:hover {
+            color: #d4af37;
+        }
+
+        footer {
+            background-color: #061322;
+            text-align: center;
+            padding: 30px;
+        }
+
+        footer p {
+            margin: 5px;
+        }
+
+        @media screen and (max-width: 800px) {
+            header {
+                padding: 20px;
+            }
+
+            .top-heading {
+                font-size: 30px;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 15px;
+            }
+
+            .hero {
+                min-height: 600px;
+                padding: 40px 25px;
+                text-align: center;
+            }
+
+            .hero-content {
+                margin: auto;
+            }
+
+            .hero-content h1 {
+                font-size: 42px;
+            }
+
+            .hero-content h2 {
+                font-size: 23px;
+            }
+
+            .hero-content p {
+                font-size: 18px;
+            }
+
+            .gold-line {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="top-heading">TFS JMUN 2026-27</h1>
+
+        <nav>
+            <div class="nav-logo">TFS JMUN</div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="committees.html">Committees</a></li>
+                <li><a href="secretariat.html">Secretariat</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>TFS JMUN 2026-27</h1>
+
+                <div class="gold-line"></div>
+
+                <h2>TFS Junior Model United Nations</h2>
+
+                <p>
+                    A platform for young delegates to debate global issues,
+                    develop leadership skills, practise diplomacy and work
+                    together to create meaningful solutions.
+                </p>
+            </div>
+        </section>
+
+        <section class="information">
+            <h2>Explore TFS JMUN</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>About JMUN</h3>
+                    <p>
+                        Discover the vision, mission and purpose behind
+                        TFS JMUN 2026-27.
+                    </p>
+                    <a href="about.html">Learn More →</a>
+                </div>
+
+                <div class="card">
+                    <h3>Committees</h3>
+                    <p>Explore ICJ, AIPPM, UNSC, UNHRC, CCC and HCC.</p>
+                    <a href="committees.html">View Committees →</a>
+                </div>
+
+                <div class="card">
+                    <h3>Secretariat</h3>
+                    <p>Meet the Chairs and Co-Chairs.</p>
+                    <a href="secretariat.html">Meet the Team →</a>
+                </div>
+
+                <div class="card">
+                    <h3>Contact Us</h3>
+                    <p>
+                        Contact the Faculty Coordinators, Logistics Team
+                        or Press Corps.
+                    </p>
+                    <a href="contact.html">Get in Touch →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026-27 TFS Junior Model United Nations</p>
+        <p>Diplomacy • Leadership • Cooperation</p>
+    </footer>
+
+</body>
+</html>
